@@ -4,13 +4,13 @@
 
 Protect your workspace with a customizable password screen. Perfect for shared computers, office environments, or when you need to step away from your desk.
 
-<img src="assets/logo/locaktab.png" alt="Locktab Extension" width="128" height="128">
+**[Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=datkanber.locktab)**
 
 ---
 
 ## Quick Start
 
-1. **Install** → Search "Locktab" in Extensions
+1. **Install** → Search "Locktab" in Extensions or [click here](https://marketplace.visualstudio.com/items?itemName=datkanber.locktab)
 2. **Set Password** → Extension will ask for a password on first run
 3. **Done!** → Your editor will now lock automatically on startup
 
@@ -91,6 +91,27 @@ All commands available in Command Palette (`Ctrl+Shift+P`):
 
 ---
 
+## Installation
+
+### From VS Code Marketplace
+1. Open VS Code
+2. Go to Extensions (Ctrl+Shift+X)
+3. Search for "Locktab"
+4. Click Install
+
+### From Command Line
+```bash
+code --install-extension datkanber.locktab
+```
+
+### Manual Installation
+Download the latest `.vsix` file from [releases](https://marketplace.visualstudio.com/items?itemName=datkanber.locktab) and install via:
+```bash
+code --install-extension locktab-1.0.1.vsix
+```
+
+---
+
 ## License
 
 MIT License - Free and open source
@@ -101,8 +122,11 @@ MIT License - Free and open source
 
 Having issues? Found a bug? Want a feature?
 
-Open an issue on [Linkedin](https://www.linkedin.com/in/burakkanber1/)
+- **Marketplace**: [Leave a review](https://marketplace.visualstudio.com/items?itemName=datkanber.locktab&ssr=false#review-details)
+- **Contact**: [LinkedIn](https://www.linkedin.com/in/burakkanber1/)
 
 ---
 
 **Developed by datkanber for users who value privacy and security**
+
+**[Get it from VS Code Marketplace →](https://marketplace.visualstudio.com/items?itemName=datkanber.locktab)**
