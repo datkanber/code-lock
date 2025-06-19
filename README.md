@@ -4,7 +4,7 @@
 
 Protect your workspace with a customizable password screen. Perfect for shared computers, office environments, or when you need to step away from your desk.
 
-![Locktab Extension](assets/logo/locaktab.png)
+<img src="assets/logo/locaktab.png" alt="Locktab Extension" width="128" height="128">
 
 ---
 
