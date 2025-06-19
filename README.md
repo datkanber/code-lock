@@ -101,7 +101,7 @@ MIT License - Free and open source
 
 Having issues? Found a bug? Want a feature?
 
-Open an issue on [GitHub](https://github.com/datkanber/locktab)
+Open an issue on [Linkedin](https://www.linkedin.com/in/burakkanber1/)
 
 ---
 
