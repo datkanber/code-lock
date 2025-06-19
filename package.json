@@ -1,0 +1,70 @@
+{
+    "name": "locktab",
+    "displayName": "Locktab",
+    "description": "Simple and secure password lock for your code editor. Protect your workspace with customizable password settings.",
+    "version": "1.0.1",
+    "publisher": "datkanber",
+    "icon": "assets/logo/locaktab.png",
+    "engines": {
+      "vscode": "^1.85.0"
+    },
+    "categories": [
+      "Other"
+    ],
+    "activationEvents": [
+      "onStartupFinished"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.lockScreen",
+          "title": "Lock Editor Now"
+        },
+        {
+          "command": "extension.setPassword",
+          "title": "Set Password"
+        },
+        {
+          "command": "extension.enablePasswordLock",
+          "title": "Enable Locktab"
+        },
+        {
+          "command": "extension.disablePasswordLock",
+          "title": "Disable Locktab"
+        }
+      ],
+      "configuration": {
+        "title": "Locktab",
+        "properties": {
+          "passwordLock.password": {
+            "type": "string",
+            "default": "",
+            "description": "Password for locking your editor"
+          },
+          "passwordLock.lockOnStartup": {
+            "type": "boolean",
+            "default": true,
+            "description": "Automatically lock editor on startup"
+          }
+        }
+      }
+    },
+    "scripts": {
+      "package": "vsce package"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/datkanber/locktab.git"
+    },
+    "keywords": [
+      "password",
+      "lock",
+      "security",
+      "protection",
+      "workspace",
+      "privacy",
+      "editor"
+    ]
+}
